@@ -1,8 +1,10 @@
 package com.demotodo.service;
 
-import java.util.Map;
+import java.util.List;
+
+import com.demotodo.dto.TodoItemDTO;
 
 public interface TodoItemService {
 	
-	public Map<String, Object> selectTodoItems();
+	public List<TodoItemDTO> findTodoItems();
 }

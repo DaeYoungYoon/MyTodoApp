@@ -5,6 +5,6 @@ import lombok.Setter;
 
 @Getter @Setter
 public class TodoItemDTO {
-	private String item_user;
-	private String item_todo;
+	private String itemUser;
+	private String itemTodo;
 }

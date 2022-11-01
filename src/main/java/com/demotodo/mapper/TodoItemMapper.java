@@ -1,11 +1,13 @@
 package com.demotodo.mapper;
 
-import java.util.Map;
+import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
+
+import com.demotodo.dto.TodoItemDTO;
 
 @Mapper
 public interface TodoItemMapper {
 	
-	public Map<String, Object> selectTodoItems();
+	public List<TodoItemDTO> selectTodoItems();
 }
